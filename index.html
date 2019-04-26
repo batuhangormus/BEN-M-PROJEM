@@ -1,32 +1,235 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+ <html class="no-js">
     <head>
+ 
+        <!--SAYFANIN KAYMA YAPISNINI ÖNLEMEK AMACIYLA GEREKLİ KOD-->
+            <title>BG E-TİCARET </title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="style.css">
+		<link href="bootstrap.min.css" rel="stylesheet">
+		
     </head>
     <body> 
             <html>
                   
-            <div class="logo" ><img src="logo.jpg" width="300" height="100"/></div>
-                    <div class="topnav">
-                            <a class="active" href="#home">Anasayfa</a>
-                            <a href="#news">Web Site Örnekleri</a>
-                            <a href="#contact">Web Site Tasarım</a>
-                            <a href="#about">Yardım</a>
-                          </div>
-                          
+	<!-- Üst Header bölümü başlangıç -->
+	<section class="top_header_area">
+	    <div class="container">
+            <ul class="nav navbar-nav top_nav">
+                <li><a href="#"><i class="fa fa-phone"></i>+90 (534) 518 52 80</a></li>
+                <li><a href="#"><i class="fa fa-envelope-o"></i>batuhangormus@gmail.com</a></li>
 
-                          <html>
-   
 
+            </ul>
+			<ul class="nav navbar-nav navbar-right social_nav">
+                <li><a href="https://www.facebook.com/batuhann.gormus"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/batuhngrms/?hl=tr"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>      
+                <li><a href="https://twitter.com/batuhngormus"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            </ul>
+	    </div>
+	</section>
+	<!-- Üst Header bölümü bitiş -->
+          <!-- Header_Area -->
+    <nav class="navbar navbar-default header_aera" id="main_navbar">
+        <div class="container">
+            <!-- Menü arama butonu -->
+            <div class="searchForm">
+                <form action="#" class="row m0">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                        <input type="search" name="search" class="form-control" placeholder="Aramak istediğiniz kelime">
+                        <span class="input-group-addon form_hide"><i class="fa fa-times"></i></span>
+                    </div>
+                </form>
+            </div><!-- Menü arama butonu bitiş -->
+            <!-- Mobil menü bölümü -->
+            <div class="col-md-2 p0">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#min_navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <img alt="Batuhan Görmüş" src="logo.png" width="190" height="80"   /> 
+                </div>
+            </div>
+
+            <!-- Web site menü bölümü -->
+            <div class="col-md-10 p0">
+                <div class="collapse navbar-collapse" id="min_navbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown submenu">
+                            <li><a href="#">Anasayfa</a></li>
+                            <ul class="dropdown-menu">
+                                
+                            </ul>
+                        </li>
+                        <li class="dropdown submenu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hakkımızda</a>
+                            <ul class="dropdown-menu other_dropdwn">
+                                <li><a href="#">Misyonumuz</a></li>
+                                <li><a href="#l">Ekibimiz</a></li>
+								<li><a href="#">Haberler</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown submenu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hİzmetlerİmİz</a>
+                            <ul class="dropdown-menu other_dropdwn">
+                                <li><a href="#">Sosyal Medya Yönetİmi Nedir ? </a></li>
+                                <li><a href="#">Web/Masaüstü Yazılım</a></li>
+								<li><a href="#">Kurumsal Kİmlİk</a></li>
+								<li><a href="#">Web Tasarım Nedir ?</a></li>
+								<li><a href="#">Seo</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Portfolyo</a></li>
+                        
+                            <a href="#" class="" data-toggle="dropdown"></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Blog-2</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">İletİşİm</a></li>
+                        <li><a href="#" class="nav_searchFrom"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div><!-- /.web menü bitiş -->
+            </div>
+        </div><!-- /.konteynır kısmı -->
+    </nav>
+
+<!-- Hizmetlerimiz başlangıç -->
+    <section class="what_we_area row">
+        <div class="container">
+            <div class="tittle wow fadeInUp">
+                <h2>Bazı Hizmetlerimiz</h2>
+                
+            </div>
+            <div class="row construction_iner">
+                <div class="col-md-4 col-sm-6 construction">
+                   <div class="cns-img">
+                        <img src="webtasarım.png" alt="">
+                   </div>
+                   <div class="cns-content">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                        <a href="">WEB TASARIM</a>
+                        
+                   </div>
+                </div>
+                <div class="col-md-4 col-sm-6 construction">
+                   <div class="cns-img">
+                        <img src="yazılım.png" alt="">
+                   </div>
+                   <div class="cns-content">
+                        <i class="fa fa-keyboard-o" aria-hidden="true"></i>
+                        <a href="">WEB/MASAÜSTÜ YAZILIM</a>
+                        
+                   </div>
+                </div>
+                <div class="col-md-4 col-sm-6 construction">
+                   <div class="cns-img">
+                        <img src="sosyal.png" alt="">
+                   </div>
+                   <div class="cns-content">
+                        <i class="fa fa-gavel" aria-hidden="true"></i>
+                        <a href="">SOSYAL MEDYA YÖNETİMİ</a>
+                        
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hizmetlerimiz bitiş -->
+   <!-- icon kütüphanesi -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Footer bölümü başlangıç -->
+    <footer class="footer_area">
+        <div class="container">
+            <div class="footer_row row">
+                <div class="col-md-3 col-sm-6 footer_about">
+                    <h2>Biz Kimiz?</h2>
+                    <img src="" alt="">
+                    <p>Yeni yazılım, web tasarım öğrencileriyiz!</p>
+                    <ul class="socail_icon">
+                        <li><a href="https://www.facebook.com/batuhann.gormus"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/batuhngrms/?hl=tr"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>      
+                        <li><a href="https://twitter.com/batuhngormus"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						</ul>
+                </div>
+                <div class="col-md-3 col-sm-6 footer_about quick">
+                    <h2>Hızlı Menü</h2>
+                    <ul class="quick_link">
+                        <li><a href="#"><i class="fa fa-chevron-right"></i>Anasayfa</a></li>
+                        <li><a href="#"><i class="fa fa-chevron-right"></i>Misyonumuz</a></li>
+                        <li><a href="#"><i class="fa fa-chevron-right"></i>Ekibimiz</a></li>
+                        <li><a href="#"><i class="fa fa-chevron-right"></i>Portfolyo</a></li>
+                        <li><a href="#"><i class="fa fa-chevron-right"></i>İletişim</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 footer_about">
+                    <h2>Duyurular</h2>
+                    <a href="#" class="twitter">@admin: Yeni tasarımımız ile kaldığımız yerden devam ediyoruz!</a>
+                    <a href="#" class="twitter">@admin: Okul ödevi'ne özel tüm hizmetlerimizde %50 indirim yapıyoruz!.</a>
+                </div>
+                <div class="col-md-3 col-sm-6 footer_about">
+                    <h2>İletişim</h2>
+                    <address>
+                        <p>Sorularınız, yorumlarınız veya sadece merhaba demek istiyorum:</p>
+                        <ul class="my_address">
+                            <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>batuhangormus404@gmail.com</a></li>
+                            <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i>+90 (534) 518 52 80</a></li>
+                            <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Cennet Mahallesi Küçükçekmece/İstanbul </span></a></li>
+                        </ul>
+                    </address>
+                </div>
+                
+            </div>
+        </div>
         
-        <script src="" async defer></script>
+        <div class="copyright_area">
+            © Copyright 2019 Batuhan Görmüş Tüm Hakları Saklıdır.</a>
+            
+        </div>
+    </footer>
+    <!-- Footer bitiş -->
+
+        <script>
+        
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+              } else {
+                document.getElementById("myBtn").style.display = "none";
+              }
+            }
+            
+            
+            function topFunction() {
+              document.body.scrollTop = 0; 
+              document.documentElement.scrollTop = 0; 
+            }
+            
+            </script>
+
+            <div class="footer1">
+
+             
+            </div>  
+
+                
+            
+
     </body>
+
 </html>
+<script src="theme.js"></script>
