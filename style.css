@@ -107,8 +107,7 @@
   background-image: url(../images/preloader.gif);
 }
 
-/*--------------------------------------------------*/
-/*Prefix Styles*/
+
 .m0 {
   margin: 0;
 }
@@ -148,8 +147,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   transition: all 300ms linear 0s;
 }
 
-/*--------------------------------------------------*/
-/* Top header */
+
 .top_header_area {
   background: #111f29;
 }
@@ -2429,10 +2427,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
     display: none;
   }
 
-  .header_aera .navbar-collapse .navbar-nav.navbar-right li .nav_searchFrom {
-    height: 45px;
-  }
-
   .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     background: #fff;
   }
@@ -2636,6 +2630,3 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
     padding-top: 10px;
   }
 }
-/*--------------------------------------------------*/
-
-/*# sourceMappingURL=style.css.map */
