@@ -1,12 +1,12 @@
 
 @import url("https://fonts.googleapis.com/css?family=Oswald:300,400,700|Roboto:300,300i,400,400i,500,500i,700,700i");
-/*Color Variables*/
+/*Renk değişkenleri SAYFA ARKASI*/
 ::selection {
   background-color: #f8b81d;
   color: #FFFFFF;
 }
 
-/* Button */
+/* BUTONLAR */
 .button_all {
   font: 700 18px/59px "Roboto", sans-serif;
   width: 180px;
@@ -43,7 +43,7 @@
   transform: scaleY(1);
 }
 
-/* Section Title*/
+/* Bölüm Başlıkları */
 .tittle {
   text-align: center;
   text-transform: uppercase;
@@ -70,7 +70,7 @@
   padding-top: 55px;
 }
 
-/* Subtittle */
+/* ikinci başlık */
 .subtittle h2 {
   font: 700 36px "Roboto", sans-serif;
   color: #222222;
@@ -93,7 +93,7 @@
   padding-top: 22px;
 }
 
-/* Preloader */
+/* Ön yükleyici */
 .preloader {
   position: fixed;
   left: 0px;
@@ -118,7 +118,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  /*Section Fix*/
+  /*Bölüm düzeltme*/
 }
 body h1, body h2, body h3, body h4, body h5, body h6 {
   margin: 0;
@@ -133,7 +133,7 @@ body section.row, body header.row, body footer.row {
   margin: 0;
 }
 
-/*Ancore*/
+
 a, .btn, button {
   outline: none;
   transition: all 300ms linear 0s;
@@ -191,8 +191,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   color: #111f29;
 }
 
-/* End Top header */
-/* Top header 2 */
+/* Başlık */
+/* Başlık 2 */
 .top_header_area.top_header {
   background-color: transparent;
   position: relative;
@@ -215,7 +215,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 
 /* End Top header 2 */
-/* Header Aera */
+/* Başlık Alanı */
 .header_aera {
   background: #fff;
   border-radius: 0;
@@ -496,7 +496,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 
 /* End slider_area */
-/* slider_area_tow */
+/* Kaymaması için kullanılan bölüm */
 .slider_area_tow .slider_inner .camera_caption div .container {
   width: 1170px !important;
   text-align: left;
@@ -517,7 +517,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 
 /* End slider_area_tow */
-/* Banner Area */
+/* Banner Alanı   */
+/* Banner görsel olarak hazırlanan ve farklı boyutlarda ve yapılarda olabilen web sayfalarının görünür yerlerine yerleştirilen koddur.*/
 .banner_area {
   background: url("../images/banner-bg.jpg") no-repeat fixed;
   background-position: center;
@@ -555,7 +556,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   color: #f6b60b;
 }
 
-/* End Banner Area */
+/* Son banner Alanı */
 /*--------------------------------------------------*/
 .professional_builder {
   background: #f5f5f5;
@@ -581,8 +582,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   color: #555555;
 }
 
-/*--------------------------------------------------*/
-/* about_us_area */
+
+/* Hakkımızda Bölümün CSS alanı */
 .about_us_area {
   background: #fefefe;
 }
@@ -632,8 +633,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   padding-top: 90px;
 }
 
-/* End about_us_area */
-/*--------------------------------------------------*/
+
+/*HAKKIMIZDA*/
 .what_we_area {
   background: #f8b81d;
 }
@@ -695,7 +696,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   font-size: 35px;
 }
 
-/*--------------------------------------------------*/
+/*Bizim özellik Alanımız*/
 .our_feature_area {
   padding-bottom: 90px;
   background: #fefefe;
@@ -742,7 +743,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 
 /*--------------------------------------------------*/
-/* our_services_area */
+/* Hizmet Alanı  */
 .our_services_area {
   background: #2e3841;
   padding-bottom: 100px;
@@ -848,13 +849,13 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   right: 0;
 }
 
-/* grid-sizer css */
+
 .grid-sizer {
   width: 33.33333333%;
 }
 
-/* End our_services_area */
-/* our_services_tow */
+/* Hizmet Alanı son kısım */
+/* Hizmetleri çekme Kısmı */
 .our_services_tow {
   background: #f5f5f5;
   padding-bottom: 100px;
@@ -930,7 +931,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   width: 41.66666667%;
 }
 
-/* our_services_tow */
+/* Hizmetlerimi çekme */
 /*--------------------------------------------------*/
 .our_team_area {
   padding-bottom: 70px;
@@ -1061,8 +1062,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   padding-bottom: 5px;
 }
 
-/*--------------------------------------------------*/
-/* Testimonial Area */
+
+/* Referans Alanı */
 .testimonial_area {
   padding-bottom: 90px;
   background: #fefefe;
@@ -1132,8 +1133,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   border: 2px solid #f6b60b;
 }
 
-/* End Testimonial Area */
-/* Our Partners Area */
+/* Bitiş Referans Alanı */
+/* Ortak Alan Başlangıç */
 .our_partners_area {
   background: #f5f5f5;
 }
@@ -1167,7 +1168,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   color: #fff;
 }
 
-/* End Our Partners Area */
+/* Ortak Alanımız Son kısım */
 /*--------------------------------------------------*/
 .featured_works {
   background: url("../images/protfolio_bg.jpg") no-repeat fixed;
@@ -1267,7 +1268,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 
 /*--------------------------------------------------*/
-/* latest_blog_area */
+/* Son blog alanı */
 .latest_blog_area {
   padding-bottom: 70px;
   background: #fefefe;
@@ -1323,8 +1324,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   color: #f6b60b;
 }
 
-/* End latest_blog_area */
-/* blog_tow_area */
+/* Son Blog alanı */
+/* Blog Çekme alanı */
 .blog_tow_area {
   padding-top: 100px;
   padding-bottom: 70px;
@@ -1384,7 +1385,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   padding-bottom: 5px;
 }
 
-/* End blog_tow_area */
+/* Son Blog çekme Alanı  */
 /*--------------------------------------------------*/
 .call_min_area {
   background: #f6b60b;
@@ -1527,7 +1528,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 
 /*--------------------------------------------------*/
-/* blog area */
+/* Blog alanı */
 .blog_all .blog_row {
   padding: 100px 0;
 }
@@ -1847,7 +1848,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   font-size: 14px;
 }
 
-/* End blog area */
+/*SON BLOG ALANI  */
 /*--------------------------------------------------*/
 .not_found_area {
   text-align: center;
@@ -1907,14 +1908,14 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 
 /*--------------------------------------------------*/
-/* Map Css */
+/* HARİTA UZUNLUK GENİŞLİK ALANI */
 .contact_map iframe {
   height: 495px;
   width: 100%;
 }
 
-/* End Map Css */
-/* All contact Info Css */
+/* HARİTA BİTİŞ CSS */
+/* Tüm iletişim bilgileri*/
 .all_contact_info .contact_row {
   padding: 100px 0;
 }
@@ -2002,7 +2003,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   background: #222222;
 }
 
-/* End All contact Info Css */
+/* Bitiş Tüm iletişim Noktaları  */
 /*--------------------------------------------------*/
 .footer_area {
   background: url("../images/footer.jpg") no-repeat;
@@ -2173,7 +2174,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   color: #fefefe;
 }
 
-/*--------------------------------------------------*/
+
 @media (max-width: 1700px) {
   .slider_area_tow .slider_inner .camera_prev::after {
     left: 0px !important;
